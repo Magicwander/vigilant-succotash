@@ -7,6 +7,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Flowers from './components/Flowers';
 import Cart from './components/Cart';
+import Login from './components/Login';
+import FlowersSearchResults from './components/FlowersSearchResults';
 import { CartProvider } from './context/CartContext';
 import './styles/style.css';
 
@@ -22,6 +24,8 @@ function App() {
             <Route path="/order" element={<Order />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/flowers-search" element={<FlowersSearchResults />} />
           </Routes>
           <Footer />
         </div>

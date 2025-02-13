@@ -1,0 +1,98 @@
+.login-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  .login-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .heading-border {
+    height: 3px;
+    width: 70px;
+    background: rgb(226, 74, 74);
+    margin: 0 auto 30px;
+  }
+  
+  .login-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form fieldset {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .login-form legend {
+    color: rgb(226, 74, 74);
+    font-size: 1.2rem;
+    padding: 0 10px;
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: rgb(226, 74, 74);
+    box-shadow: 0 0 0 2px rgba(226, 74, 74, 0.2);
+  }
+  
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    background: rgb(226, 74, 74);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background: rgb(206, 54, 54);
+  }
+  
+  /* Make it responsive */
+  @media (max-width: 480px) {
+    .login-container {
+      padding: 10px;
+    }
+    
+    .login-form fieldset {
+      padding: 15px;
+    }
+  }

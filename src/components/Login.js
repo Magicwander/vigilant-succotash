@@ -53,8 +53,6 @@ const Login = () => {
 
       {/* Welcome Message */}
       <div className="greeting">
-        <h2>a</h2>
-        <h2></h2>
         <h2>Welcome to the Flower Shop💐💐!!</h2>
         <h3>{new Date().getHours() < 12 ? "Good Morning! 🌞" : 
              new Date().getHours() < 18 ? "Good Afternoon! 🌤️" : 
